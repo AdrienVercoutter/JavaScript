@@ -19,6 +19,6 @@ inputTxT.focus();
 
 function UpdateArray(){
     for(let i=0;i< myArray.length; i++){
-        
+        pArray.innerText+= myArray[i]+'\n'
     }
 }
